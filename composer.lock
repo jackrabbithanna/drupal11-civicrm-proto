@@ -2289,17 +2289,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eileenmcnaughton/civicrm_entity.git",
-                "reference": "6c3d00d0ec2987d956d69aa54d328660e52ed1b4"
+                "reference": "7464e4644493475404132819ea1fb6bb16b31e90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eileenmcnaughton/civicrm_entity/zipball/6c3d00d0ec2987d956d69aa54d328660e52ed1b4",
-                "reference": "6c3d00d0ec2987d956d69aa54d328660e52ed1b4",
+                "url": "https://api.github.com/repos/eileenmcnaughton/civicrm_entity/zipball/7464e4644493475404132819ea1fb6bb16b31e90",
+                "reference": "7464e4644493475404132819ea1fb6bb16b31e90",
                 "shasum": ""
             },
             "require": {
                 "civicrm/civicrm-drupal-8": "*",
-                "drupal/core": "^10 || ^11"
+                "drupal/core": "^10.1 || ^11"
             },
             "require-dev": {
                 "drupal/fullcalendar_view": "^5.0"
@@ -2314,7 +2314,7 @@
             "support": {
                 "source": "https://github.com/eileenmcnaughton/civicrm_entity/tree/4.0.x"
             },
-            "time": "2024-05-17T18:22:48+00:00"
+            "time": "2024-05-20T22:37:06+00:00"
         },
         {
             "name": "drupal/core",
