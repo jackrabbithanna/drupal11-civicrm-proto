@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95b4b2969a7f7ba0a8e1e649960c7f46",
+    "content-hash": "85b068d1fbc240d6847ba9cb1a94bf33",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -222,16 +222,16 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "4.x-dev",
+            "version": "4.0.0-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "54435aa6bf286695ce9f4727bc474e7a898b68f6"
+                "reference": "d097a94c7da433c4623c28cc6ae193ed1fd6ef36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/54435aa6bf286695ce9f4727bc474e7a898b68f6",
-                "reference": "54435aa6bf286695ce9f4727bc474e7a898b68f6",
+                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/d097a94c7da433c4623c28cc6ae193ed1fd6ef36",
+                "reference": "d097a94c7da433c4623c28cc6ae193ed1fd6ef36",
                 "shasum": ""
             },
             "require": {
@@ -239,9 +239,9 @@
                 "php": ">=8.3.0",
                 "psr/event-dispatcher": "^1.0",
                 "psr/log": "^3.0",
-                "symfony/console": "^7.0",
-                "symfony/dependency-injection": "^7.0",
-                "symfony/filesystem": "^7.0",
+                "symfony/console": "^7.1",
+                "symfony/dependency-injection": "^7.1",
+                "symfony/filesystem": "^7.1",
                 "symfony/string": "^7.0",
                 "twig/twig": "^3.4"
             },
@@ -257,11 +257,10 @@
                 "phpspec/prophecy-phpunit": "^2.2",
                 "phpunit/phpunit": "^10.5",
                 "squizlabs/php_codesniffer": "^3.9",
-                "symfony/var-dumper": "^7.0",
-                "symfony/yaml": "^7.0",
+                "symfony/var-dumper": "^7.1",
+                "symfony/yaml": "^7.1",
                 "vimeo/psalm": "^5.24.0"
             },
-            "default-branch": true,
             "bin": [
                 "bin/dcg"
             ],
@@ -278,9 +277,9 @@
             "description": "Drupal code generator",
             "support": {
                 "issues": "https://github.com/Chi-teck/drupal-code-generator/issues",
-                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/4.x"
+                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/4.0.0-alpha2"
             },
-            "time": "2024-05-16T09:25:10+00:00"
+            "time": "2024-05-21T05:43:08+00:00"
         },
         {
             "name": "civicrm/civicrm-asset-plugin",
@@ -328,19 +327,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackrabbithanna/civicrm-core.git",
-                "reference": "27041c7c68c9a51020307d887889b21ecc150ac2"
+                "reference": "8e583e646379476dbb2d9d99d3422b3373f3bf62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackrabbithanna/civicrm-core/zipball/27041c7c68c9a51020307d887889b21ecc150ac2",
-                "reference": "27041c7c68c9a51020307d887889b21ecc150ac2",
+                "url": "https://api.github.com/repos/jackrabbithanna/civicrm-core/zipball/8e583e646379476dbb2d9d99d3422b3373f3bf62",
+                "reference": "8e583e646379476dbb2d9d99d3422b3373f3bf62",
                 "shasum": ""
             },
             "require": {
                 "adrienrn/php-mimetyper": "0.2.2",
                 "brick/money": "~0.5",
                 "civicrm/civicrm-cxn-rpc": "~0.20.12.01 || ~0.19.01.10",
-                "civicrm/composer-compile-lib": "~0.6 || ~1.0 || dev-d11-test",
+                "civicrm/composer-compile-lib": "~0.6 || ~1.0",
                 "civicrm/composer-downloads-plugin": "^3.0 || ^4.0",
                 "composer-runtime-api": "~2.0",
                 "cweagans/composer-patches": "~1.0",
@@ -819,7 +818,7 @@
                     "url": "https://civicrm.org/civicrm/contribute/transact?reset=1&id=47"
                 }
             ],
-            "time": "2024-05-17T17:13:54+00:00"
+            "time": "2024-05-29T22:00:11+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -946,16 +945,16 @@
         },
         {
             "name": "civicrm/composer-compile-lib",
-            "version": "dev-d11-test",
+            "version": "v0.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jackrabbithanna/composer-compile-lib.git",
-                "reference": "a913e124cc39c07e0ae999eb47584636a3252c26"
+                "url": "https://github.com/civicrm/composer-compile-lib.git",
+                "reference": "553efbc9c227cc00e03b654ddb37c97b2db21de3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackrabbithanna/composer-compile-lib/zipball/a913e124cc39c07e0ae999eb47584636a3252c26",
-                "reference": "a913e124cc39c07e0ae999eb47584636a3252c26",
+                "url": "https://api.github.com/repos/civicrm/composer-compile-lib/zipball/553efbc9c227cc00e03b654ddb37c97b2db21de3",
+                "reference": "553efbc9c227cc00e03b654ddb37c97b2db21de3",
                 "shasum": ""
             },
             "require": {
@@ -994,6 +993,7 @@
                     ]
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1005,9 +1005,10 @@
             ],
             "description": "Small library of compilation helpers",
             "support": {
-                "source": "https://github.com/jackrabbithanna/composer-compile-lib/tree/d11-test"
+                "issues": "https://github.com/civicrm/composer-compile-lib/issues",
+                "source": "https://github.com/civicrm/composer-compile-lib/tree/v0.8"
             },
-            "time": "2024-05-17T16:12:46+00:00"
+            "time": "2024-05-29T21:50:30+00:00"
         },
         {
             "name": "civicrm/composer-compile-plugin",
@@ -2289,12 +2290,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eileenmcnaughton/civicrm_entity.git",
-                "reference": "7464e4644493475404132819ea1fb6bb16b31e90"
+                "reference": "407ef9b4c535d3f85ca317823218cc12088ea64b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eileenmcnaughton/civicrm_entity/zipball/7464e4644493475404132819ea1fb6bb16b31e90",
-                "reference": "7464e4644493475404132819ea1fb6bb16b31e90",
+                "url": "https://api.github.com/repos/eileenmcnaughton/civicrm_entity/zipball/407ef9b4c535d3f85ca317823218cc12088ea64b",
+                "reference": "407ef9b4c535d3f85ca317823218cc12088ea64b",
                 "shasum": ""
             },
             "require": {
@@ -2314,7 +2315,7 @@
             "support": {
                 "source": "https://github.com/eileenmcnaughton/civicrm_entity/tree/4.0.x"
             },
-            "time": "2024-05-20T22:37:06+00:00"
+            "time": "2024-05-21T18:22:59+00:00"
         },
         {
             "name": "drupal/core",
@@ -2658,20 +2659,20 @@
         },
         {
             "name": "drush/drush",
-            "version": "13.0.0-beta1",
+            "version": "13.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "f98235d44d9fd3135c158dc9c89e579cf26f07a9"
+                "reference": "b5bd1c2eb57cda716b0a88104e88baa21c3e9905"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/f98235d44d9fd3135c158dc9c89e579cf26f07a9",
-                "reference": "f98235d44d9fd3135c158dc9c89e579cf26f07a9",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/b5bd1c2eb57cda716b0a88104e88baa21c3e9905",
+                "reference": "b5bd1c2eb57cda716b0a88104e88baa21c3e9905",
                 "shasum": ""
             },
             "require": {
-                "chi-teck/drupal-code-generator": "^3 || 4.x-dev",
+                "chi-teck/drupal-code-generator": "^3.6 || ^4@alpha",
                 "composer-runtime-api": "^2.2",
                 "composer/semver": "^1.4 || ^3",
                 "consolidation/annotated-command": "^4.9.2",
@@ -2688,7 +2689,7 @@
                 "laravel/prompts": "^0.1.21",
                 "league/container": "^4.2",
                 "php": ">=8.2",
-                "psy/psysh": "~0.11",
+                "psy/psysh": "~0.12",
                 "symfony/event-dispatcher": "^6 || ^7",
                 "symfony/filesystem": "^6.1 || ^7",
                 "symfony/finder": "^6 || ^7",
@@ -2703,11 +2704,11 @@
             "require-dev": {
                 "composer/installers": "^2",
                 "cweagans/composer-patches": "~1.7.3",
-                "drupal/core-recommended": "^10.2.5 || 11.x-dev",
+                "drupal/core-recommended": "^10.2.5 || 11.0.x-dev",
                 "drupal/semver_example": "2.3.0",
                 "jetbrains/phpstorm-attributes": "^1.0",
                 "mglaman/phpstan-drupal": "^1.2",
-                "phpunit/phpunit": "^9",
+                "phpunit/phpunit": "^9 || ^10",
                 "rector/rector": "^1",
                 "squizlabs/php_codesniffer": "^3.7"
             },
@@ -2793,7 +2794,7 @@
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "security": "https://github.com/drush-ops/drush/security/advisories",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/13.0.0-beta1"
+                "source": "https://github.com/drush-ops/drush/tree/13.0.0-beta3"
             },
             "funding": [
                 {
@@ -2801,7 +2802,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-02T17:46:14+00:00"
+            "time": "2024-05-28T00:18:35+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -2933,26 +2934,26 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.10.0",
+            "version": "v6.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "a49db6f0a5033aef5143295342f1c95521b075ff"
+                "reference": "500501c2ce893c824c801da135d02661199f60c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/a49db6f0a5033aef5143295342f1c95521b075ff",
-                "reference": "a49db6f0a5033aef5143295342f1c95521b075ff",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/500501c2ce893c824c801da135d02661199f60c5",
+                "reference": "500501c2ce893c824c801da135d02661199f60c5",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.4||^8.0"
+                "php": "^8.0"
             },
             "require-dev": {
-                "guzzlehttp/guzzle": "^6.5||^7.4",
+                "guzzlehttp/guzzle": "^7.4",
                 "phpspec/prophecy-phpunit": "^2.0",
                 "phpunit/phpunit": "^9.5",
-                "psr/cache": "^1.0||^2.0",
+                "psr/cache": "^2.0||^3.0",
                 "psr/http-client": "^1.0",
                 "psr/http-factory": "^1.0"
             },
@@ -2990,9 +2991,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.10.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.10.1"
             },
-            "time": "2023-12-01T16:26:39+00:00"
+            "time": "2024-05-18T18:05:11+00:00"
         },
         {
             "name": "grasmash/expander",
@@ -3429,16 +3430,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v11.7.0",
+            "version": "v11.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "3859367b55d977bcf5da86680c787dffaaacdb86"
+                "reference": "dad22e648ae0f4973470d82b4ae5f809540a87ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/3859367b55d977bcf5da86680c787dffaaacdb86",
-                "reference": "3859367b55d977bcf5da86680c787dffaaacdb86",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/dad22e648ae0f4973470d82b4ae5f809540a87ff",
+                "reference": "dad22e648ae0f4973470d82b4ae5f809540a87ff",
                 "shasum": ""
             },
             "require": {
@@ -3480,11 +3481,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-05-05T15:36:09+00:00"
+            "time": "2024-05-20T13:26:28+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v11.7.0",
+            "version": "v11.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -3530,16 +3531,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v11.7.0",
+            "version": "v11.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "8782f75e80ab3e6036842d24dbeead34a16f3a79"
+                "reference": "86c1331d0b06c59ca21723d8bfc9faaa19430b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/8782f75e80ab3e6036842d24dbeead34a16f3a79",
-                "reference": "8782f75e80ab3e6036842d24dbeead34a16f3a79",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/86c1331d0b06c59ca21723d8bfc9faaa19430b46",
+                "reference": "86c1331d0b06c59ca21723d8bfc9faaa19430b46",
                 "shasum": ""
             },
             "require": {
@@ -3574,20 +3575,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-04-17T14:09:55+00:00"
+            "time": "2024-05-21T17:42:34+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "v11.7.0",
+            "version": "v11.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
-                "reference": "e1be58f9b2af73f242dc6a9add1f376b3ec89eef"
+                "reference": "5b6c7c7c5951e6e8fc22dd7e4363602df8294dfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/macroable/zipball/e1be58f9b2af73f242dc6a9add1f376b3ec89eef",
-                "reference": "e1be58f9b2af73f242dc6a9add1f376b3ec89eef",
+                "url": "https://api.github.com/repos/illuminate/macroable/zipball/5b6c7c7c5951e6e8fc22dd7e4363602df8294dfa",
+                "reference": "5b6c7c7c5951e6e8fc22dd7e4363602df8294dfa",
                 "shasum": ""
             },
             "require": {
@@ -3620,7 +3621,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-06-08T14:08:27+00:00"
+            "time": "2024-05-16T21:43:47+00:00"
         },
         {
             "name": "knplabs/knp-snappy",
@@ -3753,16 +3754,16 @@
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.1.21",
+            "version": "v0.1.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "23ea808e8a145653e0ab29e30d4385e49f40a920"
+                "reference": "9bc4df7c699b0452c6b815e64a2d84b6d7f99400"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/23ea808e8a145653e0ab29e30d4385e49f40a920",
-                "reference": "23ea808e8a145653e0ab29e30d4385e49f40a920",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/9bc4df7c699b0452c6b815e64a2d84b6d7f99400",
+                "reference": "9bc4df7c699b0452c6b815e64a2d84b6d7f99400",
                 "shasum": ""
             },
             "require": {
@@ -3805,9 +3806,9 @@
             "description": "Add beautiful and user-friendly forms to your command-line applications.",
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.21"
+                "source": "https://github.com/laravel/prompts/tree/v0.1.23"
             },
-            "time": "2024-04-30T12:46:16+00:00"
+            "time": "2024-05-27T13:53:20+00:00"
         },
         {
             "name": "league/container",

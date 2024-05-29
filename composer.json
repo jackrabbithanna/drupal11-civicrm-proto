@@ -17,10 +17,6 @@
             "type": "vcs",
             "url":  "https://github.com/jackrabbithanna/civicrm-drupal-8.git"
         },
-        "civicrm/composer-compile-lib": {
-            "type": "vcs",
-            "url":  "https://github.com/jackrabbithanna/composer-compile-lib.git"
-        },
         "civicrm-packages": {
             "type": "vcs",
             "url": "https://github.com/civicrm/civicrm-packages.git"
