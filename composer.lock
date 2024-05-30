@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d8decedacd57e74f4b998cac132b7ed",
+    "content-hash": "21b426908a61490716fd37c38beeb23f",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -327,12 +327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "a21e51735796daf00920a3d191bbdf3b9f0f6c48"
+                "reference": "ef69675590863adc5fb82e9d984bc79bd13a52af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/a21e51735796daf00920a3d191bbdf3b9f0f6c48",
-                "reference": "a21e51735796daf00920a3d191bbdf3b9f0f6c48",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/ef69675590863adc5fb82e9d984bc79bd13a52af",
+                "reference": "ef69675590863adc5fb82e9d984bc79bd13a52af",
                 "shasum": ""
             },
             "require": {
@@ -800,7 +800,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-05-30T15:43:05+00:00"
+            "time": "2024-05-30T22:57:50+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -2269,6 +2269,30 @@
             "time": "2024-04-29T13:06:17+00:00"
         },
         {
+            "name": "drupal/civicrm_drush",
+            "version": "4.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/civicrm_drush.git",
+                "reference": "4ac2525a725ba5cd4833d53153467773baa0beb7"
+            },
+            "require": {
+                "civicrm/civicrm-drupal-8": "*",
+                "drush/drush": "^12 || ^13"
+            },
+            "type": "drupal-module",
+            "license": [
+                "AGPL-3.0-only"
+            ],
+            "description": "Drush functionality for CiviCRM Core",
+            "homepage": "https://github.com/skvare/civicrm_drush",
+            "support": {
+                "issues": "https://github.com/skvare/civicrm_drush",
+                "source": "https://github.com/skvare/civicrm_drush"
+            },
+            "time": "2024-05-30T23:08:24+00:00"
+        },
+        {
             "name": "drupal/civicrm_entity",
             "version": "4.0.x-dev",
             "source": {
@@ -2756,12 +2780,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackrabbithanna/webform_civicrm.git",
-                "reference": "995e2889d30d067571b90da68fdd775a0a0e3efb"
+                "reference": "7ccf248073c68b2e91c629ea8978cc8182f4f068"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackrabbithanna/webform_civicrm/zipball/995e2889d30d067571b90da68fdd775a0a0e3efb",
-                "reference": "995e2889d30d067571b90da68fdd775a0a0e3efb",
+                "url": "https://api.github.com/repos/jackrabbithanna/webform_civicrm/zipball/7ccf248073c68b2e91c629ea8978cc8182f4f068",
+                "reference": "7ccf248073c68b2e91c629ea8978cc8182f4f068",
                 "shasum": ""
             },
             "require": {
@@ -2781,7 +2805,7 @@
                 "issues": "https://www.drupal.org/project/issues/webform_civicrm",
                 "source": "http://cgit.drupalcode.org/webform_civicrm"
             },
-            "time": "2024-05-30T15:54:25+00:00"
+            "time": "2024-05-30T22:46:09+00:00"
         },
         {
             "name": "drush/drush",
@@ -10397,6 +10421,7 @@
         "civicrm/civicrm-drupal-8": 20,
         "civicrm/civicrm-packages": 20,
         "drupal/civicrm_entity": 20,
+        "drupal/civicrm_drush": 20,
         "drupal/webform": 20,
         "drupal/webform_civicrm": 20,
         "drush/drush": 10
