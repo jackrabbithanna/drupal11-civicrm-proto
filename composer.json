@@ -17,6 +17,10 @@
             "type": "vcs",
             "url":  "https://github.com/eileenmcnaughton/civicrm_entity.git"
         },
+        "drupal/webform_civicrm": {
+            "type": "vcs",
+            "url": "https://github.com/jackrabbithanna/webform_civicrm.git"
+        },
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
@@ -33,6 +37,8 @@
         "drupal/core-composer-scaffold": "^11",
         "drupal/core-project-message": "^11",
         "drupal/core-recommended": "^11",
+        "drupal/webform": "6.2.x-dev",
+        "drupal/webform_civicrm": "d11-proto-dev",
         "drush/drush": "^13.0@beta",
         "mglaman/composer-drupal-lenient": "^1.0"
     },
@@ -98,6 +104,12 @@
                 "type:drupal-custom-theme"
             ]
         },
+        "patches": {
+            "drupal/webform": {
+                "d11 info": "https://www.drupal.org/files/issues/2024-05-14/initial-drupal-11-compatibility-3446999-2.patch",
+                "drush fix": "https://www.drupal.org/files/issues/2024-05-07/3445590_3.patch"
+            }
+        },
         "drupal-core-project-message": {
             "include-keys": [
                 "homepage",
@@ -118,6 +130,9 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "drupal-lenient": {
+            "allowed-list": ["drupal/webform"]
         }
     }
 }
