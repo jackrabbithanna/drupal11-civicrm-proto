@@ -2274,12 +2274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eileenmcnaughton/civicrm_entity.git",
-                "reference": "407ef9b4c535d3f85ca317823218cc12088ea64b"
+                "reference": "f10bb4204fdd24ec50a35c1e1d3e54d329457473"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eileenmcnaughton/civicrm_entity/zipball/407ef9b4c535d3f85ca317823218cc12088ea64b",
-                "reference": "407ef9b4c535d3f85ca317823218cc12088ea64b",
+                "url": "https://api.github.com/repos/eileenmcnaughton/civicrm_entity/zipball/f10bb4204fdd24ec50a35c1e1d3e54d329457473",
+                "reference": "f10bb4204fdd24ec50a35c1e1d3e54d329457473",
                 "shasum": ""
             },
             "require": {
@@ -2299,7 +2299,7 @@
             "support": {
                 "source": "https://github.com/eileenmcnaughton/civicrm_entity/tree/4.0.x"
             },
-            "time": "2024-05-21T18:22:59+00:00"
+            "time": "2024-05-30T15:26:30+00:00"
         },
         {
             "name": "drupal/core",
