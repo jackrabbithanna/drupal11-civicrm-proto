@@ -1,0 +1,38 @@
+diff --git a/modules/webform_devel/webform_devel.info.yml b/modules/webform_devel/webform_devel.info.yml
+index 67fb5031d..4d385d335 100644
+--- a/modules/webform_devel/webform_devel.info.yml
++++ b/modules/webform_devel/webform_devel.info.yml
+@@ -2,7 +2,7 @@ name: 'Webform Devel'
+ type: module
+ description: 'Provides development tools for the Webform module.'
+ package: Webform
+-core_version_requirement: ^9.4 || ^10
++core_version_requirement: ^9.4 || ^10 || ^11
+ dependencies:
+   - 'devel:devel'
+   - 'webform:webform'
+diff --git a/modules/webform_ui/webform_ui.info.yml b/modules/webform_ui/webform_ui.info.yml
+index 4fc1fb5fd..498074588 100644
+--- a/modules/webform_ui/webform_ui.info.yml
++++ b/modules/webform_ui/webform_ui.info.yml
+@@ -2,6 +2,6 @@ name: 'Webform UI'
+ type: module
+ description: 'Provides a user interface for building and maintaining webforms.'
+ package: Webform
+-core_version_requirement: ^9.4 || ^10
++core_version_requirement: ^9.4 || ^10 || ^11
+ dependencies:
+   - 'webform:webform'
+diff --git a/webform.info.yml b/webform.info.yml
+index e59029be2..92780d1a3 100644
+--- a/webform.info.yml
++++ b/webform.info.yml
+@@ -2,7 +2,7 @@ name: Webform
+ type: module
+ description: 'Enables the creation of webforms and questionnaires.'
+ package: Webform
+-core_version_requirement: ^9.4 || ^10
++core_version_requirement: ^9.4 || ^10 || ^11
+ configure: entity.webform.collection
+ php: 8.1
+ dependencies:
