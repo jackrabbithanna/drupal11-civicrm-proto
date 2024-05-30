@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85b068d1fbc240d6847ba9cb1a94bf33",
+    "content-hash": "7a655df330c7a93bd712b6d8d39d3367",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -323,16 +323,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "dev-d11-test",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jackrabbithanna/civicrm-core.git",
-                "reference": "8e583e646379476dbb2d9d99d3422b3373f3bf62"
+                "url": "https://github.com/civicrm/civicrm-core.git",
+                "reference": "581416947cb56f7ec41ac42aab52c1b13e7b04b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackrabbithanna/civicrm-core/zipball/8e583e646379476dbb2d9d99d3422b3373f3bf62",
-                "reference": "8e583e646379476dbb2d9d99d3422b3373f3bf62",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/581416947cb56f7ec41ac42aab52c1b13e7b04b1",
+                "reference": "581416947cb56f7ec41ac42aab52c1b13e7b04b1",
                 "shasum": ""
             },
             "require": {
@@ -392,6 +392,7 @@
                 "zetacomponents/base": "1.9.*",
                 "zetacomponents/mail": "~1.9.4"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "downloads": {
@@ -739,13 +740,17 @@
                 ]
             },
             "autoload": {
+                "files": [
+                    "functions.php",
+                    "guzzle_php81_shim.php"
+                ],
                 "psr-0": {
-                    "PHPUnit_": [
-                        "packages/"
-                    ],
                     "Civi": "",
                     "Civi\\": [
                         "tests/phpunit/"
+                    ],
+                    "PHPUnit_": [
+                        "packages/"
                     ]
                 },
                 "psr-4": {
@@ -754,35 +759,12 @@
                         "Civi/",
                         "setup/src/"
                     ]
-                },
-                "files": [
-                    "functions.php",
-                    "guzzle_php81_shim.php"
-                ]
+                }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 "vendor/tecnickcom"
             ],
-            "scripts": {
-                "post-install-cmd": [
-                    "bash tools/scripts/composer/dompdf-cleanup.sh",
-                    "bash tools/scripts/composer/tcpdf-cleanup.sh",
-                    "bash tools/scripts/composer/pear-exception-fix.sh",
-                    "bash tools/scripts/composer/net-smtp-fix.sh",
-                    "bash tools/scripts/composer/pear-mail-fix.sh",
-                    "bash tools/scripts/composer/phpword-jquery.sh",
-                    "bash tools/scripts/composer/guzzle-mockhandler-fix.sh"
-                ],
-                "post-update-cmd": [
-                    "bash tools/scripts/composer/dompdf-cleanup.sh",
-                    "bash tools/scripts/composer/tcpdf-cleanup.sh",
-                    "bash tools/scripts/composer/pear-exception-fix.sh",
-                    "bash tools/scripts/composer/net-smtp-fix.sh",
-                    "bash tools/scripts/composer/pear-mail-fix.sh",
-                    "bash tools/scripts/composer/phpword-jquery.sh",
-                    "bash tools/scripts/composer/guzzle-mockhandler-fix.sh"
-                ]
-            },
             "license": [
                 "AGPL-3.0-or-later"
             ],
@@ -810,15 +792,15 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/jackrabbithanna/civicrm-core/tree/d11-test"
+                "source": "https://github.com/civicrm/civicrm-core/tree/master"
             },
             "funding": [
                 {
-                    "type": "custom",
-                    "url": "https://civicrm.org/civicrm/contribute/transact?reset=1&id=47"
+                    "url": "https://civicrm.org/civicrm/contribute/transact?reset=1&id=47",
+                    "type": "custom"
                 }
             ],
-            "time": "2024-05-29T22:00:11+00:00"
+            "time": "2024-05-30T11:50:33+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -863,27 +845,29 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "dev-d11-test",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jackrabbithanna/civicrm-drupal-8.git",
-                "reference": "3abb21683647363e3a973fa30e8bc115cf1ce86a"
+                "url": "https://github.com/civicrm/civicrm-drupal-8.git",
+                "reference": "bdc277371ed38bfb148adfa268d6f0652c1bd34f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackrabbithanna/civicrm-drupal-8/zipball/3abb21683647363e3a973fa30e8bc115cf1ce86a",
-                "reference": "3abb21683647363e3a973fa30e8bc115cf1ce86a",
+                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/bdc277371ed38bfb148adfa268d6f0652c1bd34f",
+                "reference": "bdc277371ed38bfb148adfa268d6f0652c1bd34f",
                 "shasum": ""
             },
             "require": {
                 "civicrm/civicrm-asset-plugin": "~1.1",
-                "civicrm/civicrm-core": ">=5.21.0 || dev-master || dev-d11-test",
+                "civicrm/civicrm-core": ">=5.21.0 || dev-master",
                 "composer/installers": "^1 || ^2"
             },
+            "default-branch": true,
             "type": "drupal-module",
             "extra": {
                 "installer-name": "civicrm"
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "AGPL-3.0"
             ],
@@ -911,15 +895,15 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/jackrabbithanna/civicrm-drupal-8/tree/d11-test"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/master"
             },
             "funding": [
                 {
-                    "type": "custom",
-                    "url": "https://civicrm.org/civicrm/contribute/transact?reset=1&id=47"
+                    "url": "https://civicrm.org/civicrm/contribute/transact?reset=1&id=47",
+                    "type": "custom"
                 }
             ],
-            "time": "2024-05-17T16:22:19+00:00"
+            "time": "2024-05-30T04:08:38+00:00"
         },
         {
             "name": "civicrm/civicrm-packages",
@@ -927,12 +911,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
-                "reference": "799ff8f547b63b72158dc79c6e0d59e26456ee2b"
+                "reference": "9e65a0f90210fb86b461310f2b4ff2afc1feda9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/799ff8f547b63b72158dc79c6e0d59e26456ee2b",
-                "reference": "799ff8f547b63b72158dc79c6e0d59e26456ee2b",
+                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/9e65a0f90210fb86b461310f2b4ff2afc1feda9d",
+                "reference": "9e65a0f90210fb86b461310f2b4ff2afc1feda9d",
                 "shasum": ""
             },
             "default-branch": true,
@@ -941,7 +925,7 @@
             "support": {
                 "source": "https://github.com/civicrm/civicrm-packages/tree/master"
             },
-            "time": "2024-05-14T22:11:39+00:00"
+            "time": "2024-05-30T00:14:25+00:00"
         },
         {
             "name": "civicrm/composer-compile-lib",
@@ -3430,7 +3414,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v11.9.1",
+            "version": "v11.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -3485,7 +3469,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v11.9.1",
+            "version": "v11.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -3531,7 +3515,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v11.9.1",
+            "version": "v11.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -3579,7 +3563,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v11.9.1",
+            "version": "v11.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",

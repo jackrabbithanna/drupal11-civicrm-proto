@@ -9,14 +9,6 @@
         "chat": "https://www.drupal.org/node/314178"
     },
     "repositories": {
-        "civicrm/civicrm-core": {
-            "type": "vcs",
-            "url":  "http://github.com/jackrabbithanna/civicrm-core.git"
-        },
-        "civicrm/civicrm-drupal-8": {
-            "type": "vcs",
-            "url":  "https://github.com/jackrabbithanna/civicrm-drupal-8.git"
-        },
         "civicrm-packages": {
             "type": "vcs",
             "url": "https://github.com/civicrm/civicrm-packages.git"
@@ -32,8 +24,8 @@
     },
     "require": {
         "civicrm/civicrm-asset-plugin": "~1.1",
-        "civicrm/civicrm-core": "dev-d11-test",
-        "civicrm/civicrm-drupal-8": "dev-d11-test",
+        "civicrm/civicrm-core": "dev-master",
+        "civicrm/civicrm-drupal-8": "dev-master",
         "civicrm/civicrm-packages": "dev-master",
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
