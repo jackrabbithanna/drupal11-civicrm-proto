@@ -32,9 +32,9 @@
     },
     "require": {
         "civicrm/civicrm-asset-plugin": "~1.1",
-        "civicrm/civicrm-core": "dev-master",
-        "civicrm/civicrm-drupal-8": "dev-master",
-        "civicrm/civicrm-packages": "dev-master",
+        "civicrm/civicrm-core": "5.75.*",
+        "civicrm/civicrm-drupal-8": "5.75.*",
+        "civicrm/civicrm-packages": "5.75.*",
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
         "drupal/civicrm_drush": "4.0.x-dev",
@@ -43,7 +43,7 @@
         "drupal/core-composer-scaffold": "^11",
         "drupal/core-project-message": "^11",
         "drupal/core-recommended": "^11",
-        "drupal/webform": "6.2.x-dev",
+        "drupal/webform": "6.3.x-dev",
         "drupal/webform_civicrm": "d11-proto-dev",
         "drush/drush": "^13.0@beta",
         "mglaman/composer-drupal-lenient": "^1.0"
