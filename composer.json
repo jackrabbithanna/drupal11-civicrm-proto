@@ -46,7 +46,8 @@
         "drupal/webform": "6.3.x-dev",
         "drupal/webform_civicrm": "d11-proto-dev",
         "drush/drush": "^13.0@beta",
-        "mglaman/composer-drupal-lenient": "^1.0"
+        "mglaman/composer-drupal-lenient": "^1.0",
+        "wikimedia/composer-merge-plugin": "^2.1"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -66,7 +67,8 @@
             "civicrm/civicrm-asset-plugin": true,
             "civicrm/composer-downloads-plugin": true,
             "civicrm/composer-compile-plugin": true,
-            "mglaman/composer-drupal-lenient": true
+            "mglaman/composer-drupal-lenient": true,
+            "wikimedia/composer-merge-plugin": true
         },
         "sort-packages": true
     },
@@ -115,6 +117,11 @@
                 "d11 info": "./patches/webform-d11.patch",
                 "drush fix": "https://www.drupal.org/files/issues/2024-05-07/3445590_3.patch"
             }
+        },
+        "merge-plugin": {
+            "include": [
+                "web/modules/contrib/webform/composer.libraries.json"
+            ]
         },
         "drupal-core-project-message": {
             "include-keys": [
