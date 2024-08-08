@@ -2415,16 +2415,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "11.0.0-rc1",
+            "version": "11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "58efc6fcb868554008d041c4e03651777369c972"
+                "reference": "8bbd85c64821b68cd0f5d9c781bf1387ca3b0633"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/58efc6fcb868554008d041c4e03651777369c972",
-                "reference": "58efc6fcb868554008d041c4e03651777369c972",
+                "url": "https://api.github.com/repos/drupal/core/zipball/8bbd85c64821b68cd0f5d9c781bf1387ca3b0633",
+                "reference": "8bbd85c64821b68cd0f5d9c781bf1387ca3b0633",
                 "shasum": ""
             },
             "require": {
@@ -2574,13 +2574,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/11.0.0-rc1"
+                "source": "https://github.com/drupal/core/tree/11.0.0"
             },
-            "time": "2024-07-11T22:03:31+00:00"
+            "time": "2024-08-02T05:41:31+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "11.0.0-rc1",
+            "version": "11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2624,13 +2624,13 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/11.0.0-rc1"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/11.0.0"
             },
             "time": "2024-05-11T08:22:20+00:00"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "11.0.0-rc1",
+            "version": "11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -2665,37 +2665,37 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/11.0.0-rc1"
+                "source": "https://github.com/drupal/core-project-message/tree/11.0.0"
             },
             "time": "2023-07-24T07:55:25+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "11.0.0-rc1",
+            "version": "11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "4a956f3ee612108c0f4acd1e79ed85d4cf4572d5"
+                "reference": "6b1664d5b2fa0cb2e16f1b171e58684371039110"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/4a956f3ee612108c0f4acd1e79ed85d4cf4572d5",
-                "reference": "4a956f3ee612108c0f4acd1e79ed85d4cf4572d5",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/6b1664d5b2fa0cb2e16f1b171e58684371039110",
+                "reference": "6b1664d5b2fa0cb2e16f1b171e58684371039110",
                 "shasum": ""
             },
             "require": {
                 "asm89/stack-cors": "~v2.2.0",
-                "composer/semver": "~3.4.0",
+                "composer/semver": "~3.4.2",
                 "doctrine/annotations": "~2.0.1",
                 "doctrine/deprecations": "~1.1.3",
                 "doctrine/lexer": "~2.1.1",
-                "drupal/core": "11.0.0-rc1",
+                "drupal/core": "11.0.0",
                 "egulias/email-validator": "~4.0.2",
-                "guzzlehttp/guzzle": "~7.8.1",
-                "guzzlehttp/promises": "~2.0.2",
-                "guzzlehttp/psr7": "~2.6.2",
+                "guzzlehttp/guzzle": "~7.9.2",
+                "guzzlehttp/promises": "~2.0.3",
+                "guzzlehttp/psr7": "~2.7.0",
                 "masterminds/html5": "~2.9.0",
-                "mck89/peast": "~v1.16.2",
+                "mck89/peast": "~v1.16.3",
                 "pear/archive_tar": "~1.5.0",
                 "pear/console_getopt": "~v1.4.3",
                 "pear/pear-core-minimal": "~v1.10.15",
@@ -2708,16 +2708,16 @@
                 "psr/log": "~3.0.0",
                 "ralouphie/getallheaders": "~3.0.3",
                 "sebastian/diff": "~5.1.1",
-                "symfony/console": "~v7.1.2",
-                "symfony/dependency-injection": "~v7.1.2",
+                "symfony/console": "~v7.1.3",
+                "symfony/dependency-injection": "~v7.1.3",
                 "symfony/deprecation-contracts": "~v3.5.0",
-                "symfony/error-handler": "~v7.1.2",
+                "symfony/error-handler": "~v7.1.3",
                 "symfony/event-dispatcher": "~v7.1.1",
                 "symfony/event-dispatcher-contracts": "~v3.5.0",
                 "symfony/filesystem": "~v7.1.2",
-                "symfony/finder": "~v7.1.1",
-                "symfony/http-foundation": "~v7.1.1",
-                "symfony/http-kernel": "~v7.1.2",
+                "symfony/finder": "~v7.1.3",
+                "symfony/http-foundation": "~v7.1.3",
+                "symfony/http-kernel": "~v7.1.3",
                 "symfony/mailer": "~v7.1.2",
                 "symfony/mime": "~v7.1.2",
                 "symfony/polyfill-ctype": "~v1.30.0",
@@ -2726,15 +2726,15 @@
                 "symfony/polyfill-intl-idn": "~v1.30.0",
                 "symfony/polyfill-intl-normalizer": "~v1.30.0",
                 "symfony/polyfill-mbstring": "~v1.30.0",
-                "symfony/process": "~v7.1.1",
-                "symfony/psr-http-message-bridge": "~v7.1.1",
-                "symfony/routing": "~v7.1.1",
-                "symfony/serializer": "~v7.1.2",
+                "symfony/process": "~v7.1.3",
+                "symfony/psr-http-message-bridge": "~v7.1.3",
+                "symfony/routing": "~v7.1.3",
+                "symfony/serializer": "~v7.1.3",
                 "symfony/service-contracts": "~v3.5.0",
-                "symfony/string": "~v7.1.2",
+                "symfony/string": "~v7.1.3",
                 "symfony/translation-contracts": "~v3.5.0",
-                "symfony/validator": "~v7.1.2",
-                "symfony/var-dumper": "~v7.1.2",
+                "symfony/validator": "~v7.1.3",
+                "symfony/var-dumper": "~v7.1.3",
                 "symfony/var-exporter": "~v7.1.2",
                 "symfony/yaml": "~v7.1.1",
                 "twig/twig": "~v3.10.3"
@@ -2749,9 +2749,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/11.0.0-rc1"
+                "source": "https://github.com/drupal/core-recommended/tree/11.0.0"
             },
-            "time": "2024-07-11T22:03:31+00:00"
+            "time": "2024-08-02T05:41:31+00:00"
         },
         {
             "name": "drupal/webform",
@@ -2759,7 +2759,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "4d1f8cf7046bb636d4d043787b5db3967e3cd51c"
+                "reference": "297c6fb74ef8e6a9b0a96c093e70353f7a423f93"
             },
             "require": {
                 "drupal/core": "^8 || ^9 || ^10 || ^11",
@@ -2771,17 +2771,17 @@
                 "drupal/captcha": "^1 || ^2",
                 "drupal/chosen": "3.0.x-dev",
                 "drupal/ckeditor": "1.0.x-dev",
-                "drupal/clientside_validation": "^3 || ^4",
+                "drupal/clientside_validation": "*",
                 "drupal/clientside_validation_jquery": "*",
-                "drupal/devel": "5.x-dev",
+                "drupal/devel": "*",
                 "drupal/entity": "1.x-dev",
-                "drupal/entity_print": "2.x-dev",
+                "drupal/entity_print": "*",
                 "drupal/group": "1.x-dev",
                 "drupal/hal": "1 - 2",
                 "drupal/jquery_ui": "1.x-dev",
-                "drupal/jquery_ui_button": "2.x-dev",
+                "drupal/jquery_ui_button": "*",
                 "drupal/jquery_ui_checkboxradio": "2.x-dev",
-                "drupal/jquery_ui_datepicker": "2.x-dev",
+                "drupal/jquery_ui_datepicker": "*",
                 "drupal/mailsystem": "4.x-dev",
                 "drupal/metatag": "1.x-dev",
                 "drupal/paragraphs": "1.x-dev",
@@ -2789,7 +2789,7 @@
                 "drupal/smtp": "1.x-dev",
                 "drupal/styleguide": "^1 || ^2",
                 "drupal/telephone_validation": "2.x-dev",
-                "drupal/token": "1.x-dev",
+                "drupal/token": "*",
                 "drupal/variationcache": "1.x-dev",
                 "drupal/webform_access": "*",
                 "drupal/webform_attachment": "*",
@@ -2813,7 +2813,7 @@
                 },
                 "drupal": {
                     "version": "6.3.x-dev",
-                    "datestamp": "1722010460",
+                    "datestamp": "1722697597",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -2897,16 +2897,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "13.0.0-rc1",
+            "version": "13.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "dde56a881f470ee90050db3d0e512c10de439424"
+                "reference": "ebbd1302d6beaa945e268e7958d285c9fa8630e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/dde56a881f470ee90050db3d0e512c10de439424",
-                "reference": "dde56a881f470ee90050db3d0e512c10de439424",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/ebbd1302d6beaa945e268e7958d285c9fa8630e2",
+                "reference": "ebbd1302d6beaa945e268e7958d285c9fa8630e2",
                 "shasum": ""
             },
             "require": {
@@ -3032,7 +3032,7 @@
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "security": "https://github.com/drush-ops/drush/security/advisories",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/13.0.0-rc1"
+                "source": "https://github.com/drush-ops/drush/tree/13.0.1"
             },
             "funding": [
                 {
@@ -3040,7 +3040,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-23T15:57:14+00:00"
+            "time": "2024-08-06T12:48:24+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -3343,22 +3343,22 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.8.2",
+            "version": "7.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "f4152d9eb85c445fe1f992001d1748e8bec070d2"
+                "reference": "d281ed313b989f213357e3be1a179f02196ac99b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4152d9eb85c445fe1f992001d1748e8bec070d2",
-                "reference": "f4152d9eb85c445fe1f992001d1748e8bec070d2",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d281ed313b989f213357e3be1a179f02196ac99b",
+                "reference": "d281ed313b989f213357e3be1a179f02196ac99b",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "guzzlehttp/promises": "^1.5.3 || ^2.0.3",
-                "guzzlehttp/psr7": "^1.9.1 || ^2.6.3",
+                "guzzlehttp/psr7": "^2.7.0",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.2 || ^3.0"
@@ -3449,7 +3449,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.8.2"
+                "source": "https://github.com/guzzle/guzzle/tree/7.9.2"
             },
             "funding": [
                 {
@@ -3465,7 +3465,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-18T11:12:18+00:00"
+            "time": "2024-07-24T11:22:20+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -3552,16 +3552,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.6.3",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "6de29867b18790c0d2c846af4c13a24cc3ad56f3"
+                "reference": "a70f5c95fb43bc83f07c9c948baa0dc1829bf201"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/6de29867b18790c0d2c846af4c13a24cc3ad56f3",
-                "reference": "6de29867b18790c0d2c846af4c13a24cc3ad56f3",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
+                "reference": "a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
                 "shasum": ""
             },
             "require": {
@@ -3648,7 +3648,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.6.3"
+                "source": "https://github.com/guzzle/psr7/tree/2.7.0"
             },
             "funding": [
                 {
@@ -3664,20 +3664,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-18T09:59:12+00:00"
+            "time": "2024-07-18T11:15:46+00:00"
         },
         {
             "name": "illuminate/collections",
-            "version": "v11.18.1",
+            "version": "v11.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "2be24113fe25ef18be33bbd083ad36bf1e751eb5"
+                "reference": "dc68a7ccad93f3c2baa0bc8f559431c06391aa75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/2be24113fe25ef18be33bbd083ad36bf1e751eb5",
-                "reference": "2be24113fe25ef18be33bbd083ad36bf1e751eb5",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/dc68a7ccad93f3c2baa0bc8f559431c06391aa75",
+                "reference": "dc68a7ccad93f3c2baa0bc8f559431c06391aa75",
                 "shasum": ""
             },
             "require": {
@@ -3719,11 +3719,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-07-23T14:08:10+00:00"
+            "time": "2024-08-01T18:54:27+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v11.18.1",
+            "version": "v11.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -3769,16 +3769,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v11.18.1",
+            "version": "v11.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "be935e9d9115a57be74d20176f43fa8a207029f3"
+                "reference": "34ead9385e0eab7e947807d77da66faf9bdf95ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/be935e9d9115a57be74d20176f43fa8a207029f3",
-                "reference": "be935e9d9115a57be74d20176f43fa8a207029f3",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/34ead9385e0eab7e947807d77da66faf9bdf95ff",
+                "reference": "34ead9385e0eab7e947807d77da66faf9bdf95ff",
                 "shasum": ""
             },
             "require": {
@@ -3813,11 +3813,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-07-09T13:57:38+00:00"
+            "time": "2024-08-01T19:08:33+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "v11.18.1",
+            "version": "v11.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
