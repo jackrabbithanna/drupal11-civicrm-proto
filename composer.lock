@@ -2370,17 +2370,17 @@
         },
         {
             "name": "drupal/civicrm_form_builder_blocks",
-            "version": "1.0.0-alpha1",
+            "version": "1.0.0-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/civicrm_form_builder_blocks.git",
-                "reference": "1.0.0-alpha1"
+                "reference": "1.0.0-alpha2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/civicrm_form_builder_blocks-1.0.0-alpha1.zip",
-                "reference": "1.0.0-alpha1",
-                "shasum": "e1f54cf906b1339f4704aaf2db5e6e8cb79a8107"
+                "url": "https://ftp.drupal.org/files/projects/civicrm_form_builder_blocks-1.0.0-alpha2.zip",
+                "reference": "1.0.0-alpha2",
+                "shasum": "41e6cbecaf7f160c6ab3a555275b4127c334786b"
             },
             "require": {
                 "drupal/core": "^10 || ^11"
@@ -2388,8 +2388,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-alpha1",
-                    "datestamp": "1723076489",
+                    "version": "1.0.0-alpha2",
+                    "datestamp": "1723141464",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -10879,6 +10879,7 @@
     "stability-flags": {
         "drupal/civicrm_drush": 20,
         "drupal/civicrm_entity": 20,
+        "drupal/civicrm_form_builder_blocks": 15,
         "drupal/webform": 20,
         "drupal/webform_civicrm": 20,
         "drush/drush": 10
