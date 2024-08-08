@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7d5a16ceb19317299e9284deaf09a02",
+    "content-hash": "9d99d00b2bb7197e579b6ceec20d3de9",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -2367,6 +2367,51 @@
                 "source": "https://github.com/eileenmcnaughton/civicrm_entity/tree/4.0.x"
             },
             "time": "2024-07-09T23:08:34+00:00"
+        },
+        {
+            "name": "drupal/civicrm_form_builder_blocks",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/civicrm_form_builder_blocks.git",
+                "reference": "1.0.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/civicrm_form_builder_blocks-1.0.0-alpha1.zip",
+                "reference": "1.0.0-alpha1",
+                "shasum": "e1f54cf906b1339f4704aaf2db5e6e8cb79a8107"
+            },
+            "require": {
+                "drupal/core": "^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-alpha1",
+                    "datestamp": "1723076489",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "markusa",
+                    "homepage": "https://www.drupal.org/user/142798"
+                }
+            ],
+            "description": "Render CiviCRM Afforms in Drupal blocks",
+            "homepage": "https://www.drupal.org/project/civicrm_form_builder_blocks",
+            "support": {
+                "source": "https://git.drupalcode.org/project/civicrm_form_builder_blocks",
+                "error": "Invalid dependency: \"civicrm\" is an unknown drupal 8 package name"
+            }
         },
         {
             "name": "drupal/civicrm_reroute_mail",

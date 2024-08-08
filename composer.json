@@ -39,6 +39,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/civicrm_drush": "4.0.x-dev",
         "drupal/civicrm_entity": "4.0.x-dev",
+        "drupal/civicrm_form_builder_blocks": "^1.0@alpha",
         "drupal/civicrm_reroute_mail": "^1.0",
         "drupal/core-composer-scaffold": "^11",
         "drupal/core-project-message": "^11",
