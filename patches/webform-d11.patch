@@ -20,7 +20,7 @@ index 33fb861e6..eaf994e7d 100644
  description: 'Provides a user interface for building and maintaining webforms.'
  package: Webform
 -core_version_requirement: ^10.3
-+core_version_requirement: ^10.3 || 11
++core_version_requirement: ^10.3 || ^11
  dependencies:
    - 'webform:webform'
 diff --git a/webform.info.yml b/webform.info.yml
@@ -32,7 +32,7 @@ index 530a46614..42fdaadf0 100644
  description: 'Enables the creation of webforms and questionnaires.'
  package: Webform
 -core_version_requirement: ^10.3
-+core_version_requirement: ^10.3 | 11
++core_version_requirement: ^10.3 | ^11
  configure: entity.webform.collection
  php: 8.1
  dependencies:
