@@ -1,4 +1,4 @@
-# Drupal 11 + CiviCRM 5.75 Composer Template
+# Drupal 11 + CiviCRM Composer Template
 
 Clone this repo.
 
