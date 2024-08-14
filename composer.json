@@ -21,10 +21,6 @@
             "type": "vcs",
             "url": "https://github.com/jackrabbithanna/webform_civicrm.git"
         },
-        "drupal/civicrm_drush": {
-            "type": "vcs",
-            "url": "https://git.drupalcode.org/project/civicrm_drush.git"
-        },
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
@@ -37,7 +33,7 @@
         "civicrm/civicrm-packages": "5.76.*",
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
-        "drupal/civicrm_drush": "4.0.x-dev",
+        "drupal/civicrm_drush": "^4.0@beta",
         "drupal/civicrm_entity": "4.0.x-dev",
         "drupal/civicrm_form_builder_blocks": "^1.0@alpha",
         "drupal/civicrm_reroute_mail": "^1.0",
