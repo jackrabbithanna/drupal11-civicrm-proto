@@ -28,9 +28,9 @@
     },
     "require": {
         "civicrm/civicrm-asset-plugin": "~1.1",
-        "civicrm/civicrm-core": "5.76.*",
-        "civicrm/civicrm-drupal-8": "5.76.*",
-        "civicrm/civicrm-packages": "5.76.*",
+        "civicrm/civicrm-core": "5.78.*",
+        "civicrm/civicrm-drupal-8": "5.78.*",
+        "civicrm/civicrm-packages": "5.78.*",
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
         "drupal/civicrm_drush": "^4.0@beta",
@@ -111,7 +111,6 @@
         },
         "patches": {
             "drupal/webform": {
-                "d11 info": "./patches/webform-d11.patch",
                 "drush fix": "https://www.drupal.org/files/issues/2024-05-07/3445590_3.patch"
             }
         },
