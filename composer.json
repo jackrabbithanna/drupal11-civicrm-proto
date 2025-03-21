@@ -1,18 +1,10 @@
 {
-    "name": "drupal/recommended-project",
-    "description": "Project template for Drupal projects with a relocated document root",
+    "name": "drupal/civicrm-d11-template",
+    "description": "Drupal 11 + CiviCRM 6.0 with Drupal integration modules composer template",
     "type": "project",
     "license": "GPL-2.0-or-later",
-    "homepage": "https://www.drupal.org/project/drupal",
-    "support": {
-        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
-        "chat": "https://www.drupal.org/node/314178"
-    },
+    "homepage": "https://skvare.com",
     "repositories": {
-        "civicrm-packages": {
-            "type": "vcs",
-            "url": "https://github.com/civicrm/civicrm-packages.git"
-        },
         "drupal/civicrm_entity": {
             "type": "vcs",
             "url":  "https://github.com/eileenmcnaughton/civicrm_entity.git"
@@ -50,7 +42,7 @@
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
-        "drupal/webform": "6.3.x-dev",
+        "drupal/webform": "^6.3",
         "drupal/webform_civicrm": "6.x-dev",
         "drush/drush": "^13.0@beta",
         "mglaman/composer-drupal-lenient": "^1.0",
