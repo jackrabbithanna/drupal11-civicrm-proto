@@ -25,6 +25,10 @@
             "type": "vcs",
             "url": "https://git.drupalcode.org/project/civicrm_entity_leaflet"
         },
+        "civicrm-extension-plugin": {
+           "type": "vcs",
+           "url":  "https://github.com/Skvare/civicrm-extension-plugin"
+        },
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
@@ -32,9 +36,10 @@
     },
     "require": {
         "civicrm/civicrm-asset-plugin": "~1.1",
-        "civicrm/civicrm-core": "5.81.*",
-        "civicrm/civicrm-drupal-8": "5.81.*",
-        "civicrm/civicrm-packages": "5.81.*",
+        "civicrm/civicrm-core": "6.0.*",
+        "civicrm/civicrm-drupal-8": "6.0.*",
+        "civicrm/civicrm-extension-plugin": "^1.0",
+        "civicrm/civicrm-packages": "6.0.*",
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
         "drupal/civicrm_drush": "^4.0@beta",
@@ -59,17 +64,18 @@
     "config": {
         "autoloader-suffix": "Drupal8",
         "allow-plugins": {
+            "civicrm/civicrm-asset-plugin": true,
+            "civicrm/civicrm-extension-plugin": true,
+            "civicrm/composer-compile-plugin": true,
+            "civicrm/composer-downloads-plugin": true,
             "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true,
-            "cweagans/composer-patches": true,
-            "civicrm/civicrm-asset-plugin": true,
-            "civicrm/composer-downloads-plugin": true,
-            "civicrm/composer-compile-plugin": true,
             "mglaman/composer-drupal-lenient": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
             "wikimedia/composer-merge-plugin": true
         },
         "sort-packages": true
@@ -119,13 +125,39 @@
                 "drush fix": "https://www.drupal.org/files/issues/2024-05-07/3445590_3.patch"
             },
             "drupal/webform_civicrm": {
-                "d11 fix": "https://patch-diff.githubusercontent.com/raw/colemanw/webform_civicrm/pull/973.patch"
+                "d11 fix": "https://patch-diff.githubusercontent.com/raw/colemanw/webform_civicrm/pull/974.patch"
             }
         },
         "merge-plugin": {
             "include": [
                 "web/modules/contrib/webform/composer.libraries.json"
             ]
+        },
+        "civicrm": {
+            "extensions_install_path": "./web/sites/default/files/civicrm/ext",
+            "extensions": {
+                "uk.co.vedaconsulting.mosaico": {
+                    "url": "https://download.civicrm.org/extension/uk.co.vedaconsulting.mosaico/3.6.1725615009/uk.co.vedaconsulting.mosaico-3.6.1725615009.zip"
+                },
+                "org.civicrm.shoreditch": {
+                    "url": "https://github.com/civicrm/org.civicrm.shoreditch/archive/1.0.0-beta.2.zip"
+                },
+                "org.civicrm.contactlayout": {
+                    "url": "https://github.com/civicrm/org.civicrm.contactlayout/archive/2.4.0.zip"
+                },
+                "org.civicrm.angularprofiles": {
+                    "url": "https://lab.civicrm.org/extensions/angularprofiles/-/archive/6.2.4/angularprofiles-6.2.4.zip"
+                },
+                "org.civicrm.module.cividiscount": {
+                    "url": "https://lab.civicrm.org/extensions/cividiscount/-/archive/3.8.13/cividiscount-3.8.13.zip"
+                },
+                "theisland": {
+                    "url": "https://lab.civicrm.org/extensions/theisland/-/archive/2.4.2/theisland-2.4.2.zip"
+                },
+                "com.skvare.mosaicomigration": {
+                    "url": "https://github.com/Skvare/com.skvare.mosaicomigration/archive/refs/tags/1.4.zip"
+                }
+            }
         },
         "drupal-core-project-message": {
             "include-keys": [
