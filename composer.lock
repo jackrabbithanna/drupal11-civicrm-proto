@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d304bf489fedcf13bf0ebf5f97ccc42c",
+    "content-hash": "99e7b82c709f9550868df7c1cb0106d9",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -1074,6 +1074,70 @@
                 "source": "https://github.com/civicrm/civicrm-packages/tree/6.0.2"
             },
             "time": "2025-02-13T15:24:30+00:00"
+        },
+        {
+            "name": "civicrm/cli-tools",
+            "version": "v2025.03.05.1741217962",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/civicrm/civicrm-cli-tools.git",
+                "reference": "a234b02b68edee1e4a5ee7b72a0898e519652fbd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/civicrm/civicrm-cli-tools/zipball/a234b02b68edee1e4a5ee7b72a0898e519652fbd",
+                "reference": "a234b02b68edee1e4a5ee7b72a0898e519652fbd",
+                "shasum": ""
+            },
+            "require": {
+                "civicrm/composer-downloads-plugin": "^3.0 || ^4.0"
+            },
+            "bin": [
+                "bin/civistrings",
+                "bin/civix",
+                "bin/cv",
+                "bin/coworker"
+            ],
+            "type": "library",
+            "extra": {
+                "downloads": {
+                    "*": {
+                        "path": "extern/{$id}",
+                        "type": "phar"
+                    },
+                    "cv.phar": {
+                        "url": "https://download.civicrm.org/cv/cv-0.3.61.phar",
+                        "version": "0.3.61"
+                    },
+                    "civix.phar": {
+                        "url": "https://download.civicrm.org/civix/civix-25.02.0.phar",
+                        "version": "25.02.0"
+                    },
+                    "coworker.phar": {
+                        "url": "https://download.civicrm.org/coworker/coworker-0.6.phar",
+                        "version": "0.6"
+                    },
+                    "civistrings.phar": {
+                        "url": "https://download.civicrm.org/civistrings/civistrings.phar-2022-08-30-c035da67",
+                        "version": "2022-08-30-c035da67"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Otten",
+                    "email": "totten@civicrm.org"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/civicrm/civicrm-cli-tools/issues",
+                "source": "https://github.com/civicrm/civicrm-cli-tools/tree/v2025.03.05.1741217962"
+            },
+            "time": "2025-03-05T23:39:25+00:00"
         },
         {
             "name": "civicrm/composer-compile-lib",
