@@ -32,7 +32,7 @@
         "civicrm/civicrm-drupal-8": "6.2.*",
         "civicrm/civicrm-extension-plugin": "^1.0",
         "civicrm/civicrm-packages": "6.2.*",
-        "civicrm/cli-tools": "^2025.03",
+        "civicrm/cli-tools": "^2025.05",
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
         "drupal/civicrm_drush": "^4.0@beta",
