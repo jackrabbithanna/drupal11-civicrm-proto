@@ -126,6 +126,10 @@
                 "web/modules/contrib/webform/composer.libraries.json"
             ]
         },
+        "civicrm-asset": {
+            "path": "web/libraries/civicrm/core",
+            "url": "/libraries/civicrm/core"
+        },
         "civicrm": {
             "extensions_install_path": "./web/sites/default/files/civicrm/ext",
             "extensions": {
