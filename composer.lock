@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae3db7e673cf6721ffd5c4f69f8d5fd7",
+    "content-hash": "21ebc63178d3810a8220539a15d3029b",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -3414,7 +3414,7 @@
                 "shasum": "02e45bf3716c6e81846a9b77837782a43053e6f9"
             },
             "require": {
-                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+                "drupal/core": "^10.3 || ^11.0"
             },
             "require-dev": {
                 "drupal/address": "^2.0",
